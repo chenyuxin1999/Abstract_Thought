@@ -53,7 +53,7 @@ Set up a virtualenv and install the [pytorch](https://pytorch.org/get-started/pr
 ```bash
 pip install -r requirements.txt
 ```
-Our experiments have been tested on **Python 3.9.7 with PyTorch 2.2.2+cu117**.
+Our experiments have been tested on **Python 3.12.9 with transformers 4.51.3**.
 
 
 ## 📚 Datasets
