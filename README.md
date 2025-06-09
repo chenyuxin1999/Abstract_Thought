@@ -39,6 +39,9 @@ Motivated by these insights, we propose neuron-specific training strategies tail
 - [Preparations](#Preparations)
 - [Dataset](#Dataset)
 - [Quick Start](#Quick-Start)
+- [Enhancement Result](#Enhancement-Result)
+- [Citation](#Citation)
+
 
 <p id="Preparations"></p>  
 
@@ -83,7 +86,7 @@ bash train.sh
 ```
 
 
-## 📊 Enhancement Results
+## 📊 Enhancement-Results
 ![results](figures/results.png)
 
 
