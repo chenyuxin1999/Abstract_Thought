@@ -86,9 +86,9 @@ By running the following command, you will **pretrain the LLM with language-spec
 bash train.sh
 ```
 
-<div id="Enhancement-Results"></div>  
+<div id="Enhancement-Result"></div>  
 
-## 📊 Enhancement Results
+## 📊 Enhancement Result
 ![results](figures/results.png)
 
 <div id="Citation"></div>  
