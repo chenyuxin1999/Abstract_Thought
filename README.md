@@ -36,14 +36,14 @@ Motivated by these insights, we propose neuron-specific training strategies tail
 ## 📋 Catalogue 
 
 - [Catalogue](#Catalogue)
-- [Preparations](#Preparations)
+- [Installation](#Installation)
 - [Dataset](#Dataset)
 - [Quick Start](#Quick-Start)
 - [Enhancement Result](#Enhancement-Result)
 - [Citation](#Citation)
 
 
-<p id="Preparations"></p>  
+<p id="Installation"></p>  
 
 ## ⚙️ Installation
 
@@ -55,6 +55,7 @@ pip install -r requirements.txt
 ```
 Our experiments have been tested on **Python 3.12.9 with transformers 4.51.3**.
 
+<div id="Datasets"></div>  
 
 ## 📚 Datasets
 Download dataset from following links:
@@ -64,7 +65,7 @@ Download dataset from following links:
 | Training | A multilingual corpus with at least 100k samples per language from CulturaX, MADLAD, and Wikipedia, used for targeted neuron pretraining. | [Link](https://huggingface.co/datasets/Chen1999/Training) |
 | Evaluation | 	Includes MMMLU and MGSM datasets for measuring multilingual performance on high-, medium-, and low-resource languages. | [Link](https://huggingface.co/datasets/Chen1999/Evaluation) |
 
-<p id="Quick-Start"></p> 
+<div id="Quick-Start"></div>  
 
 ## ⌛️ Quick Start
 
@@ -85,10 +86,12 @@ By running the following command, you will **pretrain the LLM with language-spec
 bash train.sh
 ```
 
+<div id="Enhancement-Results"></div>  
 
-## 📊 Enhancement-Results
+## 📊 Enhancement Results
 ![results](figures/results.png)
 
+<div id="Citation"></div>  
 
 ## 📖 Citation
 
